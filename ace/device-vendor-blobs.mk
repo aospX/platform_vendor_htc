@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
     vendor/htc/ace/proprietary/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
     vendor/htc/ace/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
+    vendor/htc/ace/proprietary/libGLES_android.so:/system/lib/egl/libGLES_android.so \
     vendor/htc/ace/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/ace/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/ace/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
@@ -44,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/ace/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/ace/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
+    vendor/htc/ace/proprietary/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/htc/ace/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/ace/proprietary/libv8.so:system/lib/libv8.so \
     vendor/htc/ace/proprietary/lsc_camera:/system/bin/lsc_camera \
