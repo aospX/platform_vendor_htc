@@ -16,7 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/ace/proprietary/libcamera.so:/obj/lib/libcamera.so \
+    vendor/htc/ace/proprietary/libcamera.so:obj/lib/libcamera.so \
     vendor/htc/ace/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/ace/proprietary/libv8.so:obj/lib/libv8.so
 
