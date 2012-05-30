@@ -39,7 +39,3 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/ace/proprietary/awb_camera:/system/bin/awb_camera
 
-# Temp fix for LiveWallpapers
-PRODUCT_COPY_FILES += \
-    vendor/htc/ace/proprietary/libbcc.so:/system/lib/libbcc.so
-
