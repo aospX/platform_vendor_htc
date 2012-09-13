@@ -17,7 +17,8 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/libcamera.so:obj/lib/libcamera.so \
-    vendor/htc/ace/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
+    vendor/htc/ace/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so\
+    vendor/htc/ace/proprietary/gps.spade.so:obj/lib/hw/gps.spade.so
 
 # All the blobs necessary for ace
 PRODUCT_COPY_FILES += \
@@ -38,4 +39,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/ace/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/ace/proprietary/awb_camera:/system/bin/awb_camera
+
+# Prebuilt GPS 2.50.405.2
+PRODUCT_COPY_FILES += \
+    vendor/htc/ace/proprietary/gps.spade.so:/system/lib/hw/gps.spade.so
 
